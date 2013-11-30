@@ -1,0 +1,60 @@
+这是一个图片滚动的效果，每次滚动一个元素，图片由小变大。
+
+显示当前是第几张以及当前图片标题。
+
+同时提供圆点切换，切换时没有动态效果。
+
+初始化：Slider.init({});
+
+设置当前显示元素：Slider.setCurrent(index);//index为数字
+
+对外接口(即init参数的属性)：
+
+	container
+	//外部容器，默认 $(".slider-container")
+
+	panels					
+	//元素集合，默认 $(".panel")
+
+	leftBtn			
+	//左按钮，默认 $(".scrollBtn-left")
+
+	rightBtn	
+	//右按钮，默认 $(".scrollBtn-right")
+
+	imgWrapClass			
+	//图片外层的元素，默认 "picWrap"
+
+	tabs			
+	//圆点容器，默认 $(".pic-tabs")
+
+	tabWidth				
+	//圆点容器宽度，默认 437
+
+	title			
+	//图片描述区域，默认 $(".pic-title")
+
+	top					
+	//小图距离顶部的top值，默认 188
+
+	baseWidth					
+	//容器宽度，也就是每次滚动的距离长度，默认 875
+
+	currentWidth					
+	//焦点元素的宽度，默认 875
+	
+	currentHeight				
+	//焦点元素的高度，默认 575
+
+	relatedWidth				
+	//小图宽度，默认 500
+
+	relatedHeight				
+	//小图高度，默认 330
+
+	changeSpeed				
+	//元素大小以及位置的变化速度，默认 700
+
+	scrollSpeed			
+	//滚动速度，默认 500
+
